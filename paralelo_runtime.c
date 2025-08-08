@@ -4,9 +4,6 @@
 
 int main() {
     omp_set_num_threads(4);
-    // omp_set_schedule(omp_sched_static, 4);
-    omp_set_schedule(omp_sched_dynamic, 2);
-
 
     int i;
     int suma = 0;
